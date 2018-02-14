@@ -1,6 +1,6 @@
 {
   "name": "hubdated",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "repository": "juliangruber/hubdated",
   "description": "List outdated git dependencies in your private GitHub repos",
