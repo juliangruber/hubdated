@@ -1,0 +1,22 @@
+{
+  "name": "hubdated",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "juliangruber/hubdated",
+  "description": "List outdated git dependencies in your private GitHub repos",
+  "bin": {
+    "hubdated": "bin/hubdated.js"
+  },
+  "scripts": {
+    "test": "prettier-standard index.js && standard"
+  },
+  "dependencies": {
+    "gh-got": "^7.0.0",
+    "semver": "^5.5.0",
+    "semver-diff": "^2.1.0"
+  },
+  "devDependencies": {
+    "prettier-standard": "^8.0.0",
+    "standard": "^10.0.3"
+  }
+}
